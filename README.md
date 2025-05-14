@@ -1,4 +1,4 @@
-# Notion API Integration
+# Python Notion API
 
 This project provides a set of Python scripts to interact with the Notion API, allowing you to read from and write to Notion databases and pages.
 
