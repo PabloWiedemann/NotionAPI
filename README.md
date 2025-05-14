@@ -28,10 +28,9 @@ This project provides a set of Python scripts to interact with the Notion API, a
 
 3. **Find your Notion Page ID:**
    - In the same three-dot menu, select "Copy link" to get the page URL.
-   - The Page ID is the long string of letters and numbers in the URL.
-   e.g.:
-   url: https://www.notion.so/username/database_name-1f37fa11c9ca80fc9e46fb8dda381111?pvs=4
-   Database id: 1f37fa11c9ca80fc9e46fb8dda381111
+   - The Page ID is the long string of letters and numbers in the URL. e.g.:
+      - url: https://www.notion.so/username/database_name-1f37fa11c9ca80fc9e46fb8dda381111?pvs=4
+      - Database id: 1f37fa11c9ca80fc9e46fb8dda381111
 
 4. **Find your Database ID:**
    - On the database block, click the six-dot menu and select "Copy link" to get the database URL.
