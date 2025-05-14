@@ -16,6 +16,26 @@ This project provides a set of Python scripts to interact with the Notion API, a
 - Notion page ID
 - Notion database ID
 
+## How to Obtain Notion API Token, Page ID, and Database ID
+
+1. **Get your Notion API Token:**
+   - Go to [Notion Integrations](https://www.notion.so/profile/integrations).
+   - Create a new integration and copy the generated token.
+
+2. **Share your Notion page with the integration:**
+   - Open the Notion page where your database is located.
+   - Click the three-dot menu (top right corner), scroll down to "Connections," and enable the integration you just created.
+
+3. **Find your Notion Page ID:**
+   - In the same three-dot menu, select "Copy link" to get the page URL.
+   - The Page ID is the long string of letters and numbers in the URL.
+
+4. **Find your Database ID:**
+   - On the database block, click the six-dot menu and select "Copy link" to get the database URL.
+   - The Database ID is the long string of letters and numbers in the URL (similar to the Page ID).
+
+> Both IDs are typically 32 characters long and may be separated by dashes in the URL.
+
 ## Installation
 
 1. Clone the repository:
@@ -63,14 +83,6 @@ python notion_db_write.py
 - Never commit your `.env` file to version control
 - Keep your Notion API token secure
 - The `.gitignore` file is configured to ignore sensitive files
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## License
 
